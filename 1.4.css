@@ -24,22 +24,24 @@ li {
     list-style-type: none;
 }
 .aside{
+    position:fixed;
+    min-width: 320px;
     width:320px;
     max-width: 320px;
     box-shadow: 5px 0px 15px -5px black;
-    /* height: 100%; */
-    overflow: scroll;
+    /* overflow: scroll; */
     display:flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 body{
-    overflow: scroll;
     font-family: "TTLakes",sans-serif;
-    height:100%;
+    width:100vw;
+    width:100vh;
 }
 
-body, ul, nav,aside{
+body, ul, nav,.aside{
     margin:0;
     padding:0;
     
@@ -134,7 +136,7 @@ body, ul, nav,aside{
 }
 
 .footer-aside__elem{
-margin-bottom:16px ;
+    margin-bottom:16px ;
 }
 
 .footer-aside__row{
