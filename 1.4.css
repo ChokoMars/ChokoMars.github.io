@@ -33,6 +33,7 @@ li {
 }
 
 body{
+    overflow: hidden;
     font-family: "TTLakes",sans-serif;
     height: 100vh;
 }
