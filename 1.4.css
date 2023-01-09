@@ -24,6 +24,7 @@ li {
     list-style-type: none;
 }
 .aside{
+    width:320px;
     max-width: 320px;
     box-shadow: 5px 0px 15px -5px black;
     height: 100vh;
@@ -33,7 +34,7 @@ li {
 
 body{
     font-family: "TTLakes",sans-serif;
-    
+    height: 100vh;
 }
 
 body, ul, nav,aside{
@@ -99,7 +100,7 @@ body, ul, nav,aside{
 
 .main-aside__list{
     display:flex;
-    flex-direction: column;
+    flex-direction: column;   
 }
 
 .main-aside__elem{
@@ -128,7 +129,6 @@ body, ul, nav,aside{
 .footer-aside__list{
     display:flex;
     flex-direction:column;
-
 }
 
 .footer-aside__elem{
