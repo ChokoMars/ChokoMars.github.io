@@ -28,6 +28,7 @@ li {
     max-width: 320px;
     box-shadow: 5px 0px 15px -5px black;
     /* height: 100%; */
+    overflow: scroll;
     display:flex;
     flex-direction: column;
 }
@@ -35,7 +36,7 @@ li {
 body{
     overflow: scroll;
     font-family: "TTLakes",sans-serif;
-    /* height: 100vh; */
+    height:100%;
 }
 
 body, ul, nav,aside{
