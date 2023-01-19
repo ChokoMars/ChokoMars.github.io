@@ -37,22 +37,22 @@ body{
 }
 
 .slider{
-background-color: #F8F8F8;
+    background-color: #F8F8F8;
 }
 
 .slider__text{
-font-size: 16px;
-color:#7e7e82;
-background: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
-padding:16px 32px;
-text-transform: uppercase;
-font-weight: 400;
+    font-size: 16px;
+    color:#7e7e82;
+    background: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
+    padding:16px 32px;
+    text-transform: uppercase;
+    font-weight: 400;
 }
 
 .slider__list{
-display:flex;
-flex-wrap: wrap;
-padding-top:16px;
+    display:flex;
+    flex-wrap: wrap;
+    padding-top:16px;
 }
 
 .slider__list-elem{
@@ -65,10 +65,6 @@ padding-top:16px;
     border-radius: 10px;
     margin-bottom: 16px;
     align-items: center;
-}
-
-.slider__logo{
-
 }
 
 .slider__arrow{
@@ -108,12 +104,11 @@ padding-top:16px;
     .swiper{
         display:block;
         height: 154px;
-
+        background-color:#F8F8F8;
     }
 
     .slider__text{
-       
-        padding-left:16px;
+       padding-left:16px;
     }
 
     .swiper-slide{
