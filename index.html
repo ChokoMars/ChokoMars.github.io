@@ -1,52 +1,52 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="1.4.css">
+<link rel="stylesheet" href="1.5.css">
 <html lang="ru">
 
 <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1" >
-    <title>CPS-aside</title>
+    <title>CPS-Slider</title>
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
 </head>
 
 <body>
-    <aside class = "aside">
-        <nav class = "header-aside">
-            <ul class = "header-aside__list">
-                <!-- <li class = "header-aside__elem icon close"><a><img class = "aside__icon close" src = "img/close.svg" alt = " "></a></li> -->
-                <li class = "header-aside__elem icon close"><a></a></li>
-                <li class = "header-aside__item aside__logo"><a><img class = "header-aside__icon CPSlogo" src = "img/SVGcps.svg" alt=" "></a></li>
-                <li class = "header-aside__elem icon asidesearch"><a></a></li>
-            </ul>
-        </nav>
+    
+    <h2 class = "slider__text">Ремонт техники различных брендов </h2>
+    <section class = "slider"> <!--комп и планшет-->  
+        <ul class = "slider__list">
+            <li><a class = "slider__list-elem slider__desktop" href=""><img src = "img/BitmapLenovo.svg" alt = "lenovo" class = "slider__logo lenovo"></img><div class = "slider__arrow"></div></a></li>
+            <li><a class = "slider__list-elem slider__desktop" href=""><img src = "img/Bitmapsamsung.svg" alt = "samsung" class = "slider__logo samsung"></img><div class = "slider__arrow"></div></a></li>
+            <li><a class = "slider__list-elem slider__desktop" href=""><img src = "img/Bitmapapple.svg" alt = "apple" class = "slider__logo apple"></img><div class = "slider__arrow"></div></a></li>
+            <li><a class = "slider__list-elem slider__desktop" href=""><img src = "img/Bitmapviewsonic.svg" alt = "viewsonic" class = "slider__logo viewsonic"></img><div class = "slider__arrow"></div></a></li>
+            <li><a class = "slider__list-elem slider__desktop" href=""><img src = "img/Bitmapbosch.svg" alt = "bosch" class = "slider__logo bosch"></img><div class = "slider__arrow"></div></a></li>
+            <li><a class = "slider__list-elem slider__desktop" href=""><img src = "img/Bitmaphp.svg" alt = "hp" class = "slider__logo hp"></img><div class = "slider__arrow"></div></a></li>
+            <li><a class = "slider__list-elem slider__desktop" href=""><img src = "img/Bitmapacer.svg" alt = "acer" class = "slider__logo acer"></img><div class = "slider__arrow"></div></a></li>
+            <li><a class = "slider__list-elem slider__desktop" href=""><img src = "img/Bitmapsony.svg" alt = "sony" class = "slider__logo sony"></img><div class = "slider__arrow"></div></a></li>
+            <li><a class = "slider__list-elem slider__desktop slider__hide-elem" href=""><img src = "img/BitmapLenovo.svg" alt = "lenovo" class = "slider__logo lenovo"></img><div class = "slider__arrow"></div></a></li>
+            <li><a class = "slider__list-elem slider__desktop slider__hide-elem" href=""><img src = "img/Bitmapsamsung.svg" alt = "samsung" class = "slider__logo samsung"></img><div class = "slider__arrow"></div></a></li>
+            <li><a class = "slider__list-elem slider__desktop slider__hide-elem" href=""><img src = "img/Bitmapapple.svg" alt = "apple" class = "slider__logo apple"></img><div class = "slider__arrow"></div></a></li>
+        </ul>
+        
+        <section class = "slider__hide"><img class = "slider__arrow-hide" src = "img/iconhideArrow.svg"><p class = "slider__hide-text">Показать все</p></section>
+    </section><!--Конец компа и планшета-->
 
-        <nav class = "main-aside">
-            <ul class = "main-aside__list">
-                <li class = "main-aside__elem"><a>Ремонт техники</a></li>
-                <li class = "main-aside__elem"><a>Услуги и сервисы</a></li>
-                <li class = "main-aside__elem"><a>Корпоративным клиентам</a></li>
-                <li class = "main-aside__elem"><a>Продавцам техники</a></li>
-                <li class = "main-aside__elem"><a>Партнерам</a></li>
-                <li class = "main-aside__elem"><a>Производителям</a></li>
-                <li class = "main-aside__elem"><a>Наши сервисные центры</a></li>
-                <li class = "main-aside__elem"><a>Контакты</a></li>
-            </ul>
-        </nav>
+    <div class = "swiper"><!--Главный контейнер слайдера-->
+        <div class="swiper-wrapper"> <!--Оболочка-->
+            <div class="swiper-slide"><a class = "slider__list-elem swiper__slide" href=""><img src = "img/BitmapLenovo.svg" alt = "lenovo" class = "slider__logo lenovo"></img><div class = "slider__arrow"></div></a></div>
+            <div class="swiper-slide"><a class = "slider__list-elem swiper__slide" href=""><img src = "img/Bitmapsamsung.svg" alt = "samsung" class = "slider__logo samsung"></img><div class = "slider__arrow"></div></a></div>
+            <div class="swiper-slide"><a class = "slider__list-elem swiper__slide" href=""><img src = "img/Bitmapapple.svg" alt = "apple" class = "slider__logo apple"></img><div class = "slider__arrow"></div></a></div>
+            <div class="swiper-slide"><a class = "slider__list-elem swiper__slide" href=""><img src = "img/Bitmapviewsonic.svg" alt = "viewsonic" class = "slider__logo viewsonic"></img><div class = "slider__arrow"></div></a></div>
+            <div class="swiper-slide"><a class = "slider__list-elem swiper__slide" href=""><img src = "img/Bitmapbosch.svg" alt = "bosch" class = "slider__logo bosch"></img><div class = "slider__arrow"></div></a></div>
+            <div class="swiper-slide"><a class = "slider__list-elem swiper__slide" href=""><img src = "img/Bitmaphp.svg" alt = "hp" class = "slider__logo hp"></img><div class = "slider__arrow"></div></a></div>
+            <div class="swiper-slide"><a class = "slider__list-elem swiper__slide" href=""><img src = "img/Bitmapacer.svg" alt = "acer" class = "slider__logo acer"></img><div class = "slider__arrow"></div></a></div>
+            <div class="swiper-slide"><a class = "slider__list-elem swiper__slide" href=""><img src = "img/Bitmapsony.svg" alt = "sony" class = "slider__logo sony"></img><div class = "slider__arrow"></div></a></div>
+            <div class="swiper-slide"><a class = "slider__list-elem swiper__slide" href=""><img src = "img/BitmapLenovo.svg" alt = "lenovo" class = "slider__logo lenovo"></img><div class = "slider__arrow"></div></a></div>
+            <div class="swiper-slide"><a class = "slider__list-elem swiper__slide" href=""><img src = "img/Bitmapsamsung.svg" alt = "samsung" class = "slider__logo samsung"></img><div class = "slider__arrow"></div></a></div>
+            <div class="swiper-slide"><a class = "slider__list-elem swiper__slide" href=""><img src = "img/Bitmapapple.svg" alt = "apple" class = "slider__logo apple"></img><div class = "slider__arrow"></div></a></div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
 
-        <nav class = "footer-aside">
-            <ul  class = "footer-aside__list">
-                    <li class = "footer-aside__elem"><ul class = "footer-aside__row">    
-                    <li class = "footer-aside__item icon tel"> <a></a></li>
-                    <li class = "footer-aside__item icon mes"> <a></a></li>
-                    <li class = "footer-aside__item icon cont"> <a></a></li>
-                </ul></li>
-                <li class = "footer-aside__elem"><a>mail@cps.com</a></li>
-                <li class = "footer-aside__elem"><b><a>8 800 890 8900</a></b></li>
-                <li class = "footer-aside__elem">
-                <ul class = "footer-aside__row">
-                    <li class = "footer-aside__item" >RU</li>
-                    <li class = "footer-aside__item" >EN</li>
-                    <li class = "footer-aside__item" >CH</li>
-                </ul></li>
-            </ul>
-        </nav>
-    </aside>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src = "1.5.js"></script>
+    <script src="1.5spoiler.js"></script>
 </body>
