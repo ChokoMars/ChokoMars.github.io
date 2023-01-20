@@ -107,6 +107,10 @@ body{
         background-color:#F8F8F8;
     }
 
+    .swiper-pagination-bullets .swiper-pagination-bullet-active {
+        background-color:gray;
+    }
+
     .slider__text{
        padding-left:16px;
     }
