@@ -1,7 +1,7 @@
 const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'vertical',
-    loop: true,
+    loop: false,
   
     // If we need pagination
     pagination: {
@@ -9,12 +9,13 @@ const swiper = new Swiper('.swiper', {
         clickable:true,
     },
     direction:"horizontal",
-    // slidesPerView:1.2,
+    
+    //slidesPerView:1.2,
     centeredSlides:true,
     breakpoints: {
         // when window width is >= 320px
         320: {
-          slidesPerView: 1.2,
+          slidesPerView: 1.3,
         },
         // when window width is >= 480px
         400: {
