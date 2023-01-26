@@ -8,13 +8,13 @@
       height: 100%;
       padding-top: 16px;
 
-      @media (min-width: $tablet) and (max-width: $tablet-max) {
+      @media (min-width:  768px) and (max-width: 1439px) {
          flex-wrap: wrap;
          gap: 16px 24px;
          padding: 24px;
          box-sizing: border-box;
       }
-      @media (min-width: $desktop) {
+      @media (min-width: 1440px) {
          flex-wrap: wrap;
          gap: 16px 32px;
          padding: 32px;
@@ -26,13 +26,13 @@
       width: auto;
       margin-left: 16px;
       border-radius: 6px;
-      @media (min-width: $tablet) {
+      @media (min-width: 768px) {
          margin: 0;
       }
 
       &:last-child {
          margin-right: 16px;
-         @media (min-width: $tablet) {
+         @media (min-width: 768px) {
             margin: 0;
          }
       }
@@ -43,7 +43,7 @@
    position: relative;
    margin-top: 20px;
 
-   @media (min-width: $tablet) {
+   @media (min-width: 768px) {
       display: none;
    }
 }

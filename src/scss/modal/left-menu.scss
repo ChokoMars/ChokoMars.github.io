@@ -1,13 +1,13 @@
 .left-menu {
    font-family: 'TT Lakes', sans-serif;
    font-weight: 500;
-   color: $black;
+   color: #1b1c21;
    font-size: 16px;
    line-height: 24px;
    z-index: 50;
    box-sizing: border-box;
    width: 320px;
-   background: $white;
+   background: #ffffff;
    padding: 18px 16px 32px; 
    position: fixed;
    top: 0;
@@ -18,7 +18,7 @@
       padding: 18px 24px 32px;
    }
 
-   @media (min-width: $desktop-max) {
+   @media (min-width: 1440px) {
       z-index: 9;
    }
 
@@ -66,7 +66,7 @@
       }
 
       &:nth-child(1) {
-         @media (min-width: $desktop-max) {
+         @media (min-width: 1440px) {
             display: none;
          }
       }
@@ -108,7 +108,7 @@
    }
 
    &__contact-link {
-      color: $black;
+      color: #1b1c21;
    }
 
    &__lang {
@@ -117,10 +117,10 @@
    }
 
    &__lang-link {
-      color: $black;
+      color: #1b1c21;
       &:active,
       :hover {
-         color: $muted;
+         color: #7e7e82;
       }
    }
 
@@ -128,7 +128,7 @@
       opacity: 0;
       visibility: hidden;
       transform: translate(-500px, 0);
-      @media (min-width: $desktop-max) {
+      @media (min-width: 1440px) {
          opacity: 1;
          visibility: visible;
          transform: translate(0);
@@ -145,7 +145,7 @@
 
    &__link {
       display: inline-block;
-      color: $black;
+      color: #1b1c21;
 
      &:active::before,
      &:hover::before {
@@ -153,13 +153,13 @@
        position: relative;
        left: -16px;
        height: 40px;
-       border: 2px solid $light-sky;
+       border: 2px solid #41f6d7;
        border-radius: 0 10px 10px 0;
        margin-right: -4px;
      }
      &:active,
      &:hover {
-       color: $muted;
+       color: #7e7e82;
      }
    }
 }

@@ -5,15 +5,15 @@
    padding: 0 16px;
    gap: 16px;
 
-   @media (max-width: $phone) { 
+   @media (max-width: 767px) { 
       padding: 0;
    }
-   @media (min-width: $tablet) and (max-width: $tablet-max) {
+   @media (min-width: 768px) and (max-width: 1439px) {
       flex-wrap: nowrap;
       padding: 0 24px;
       gap: 48px;
    }
-   @media (min-width: $desktop) {
+   @media (min-width: 1440px) {
       flex-wrap: nowrap;
       margin-top: 26px;
       padding: 0 34px;
@@ -25,20 +25,20 @@
       flex-wrap: wrap;
       box-sizing: border-box;
 
-      @media (max-width: $phone) {
+      @media (max-width: 767px) {
          width: 100%;
       }
-      @media (min-width: $tablet) and (max-width: $tablet-max) {
+      @media (min-width:  768px) and (max-width: 1439px) {
          width: 50%;
       }
-      @media (min-width: $desktop) {
+      @media (min-width: 1440px) {
          width: 50%;
       }
 
       &:first-child {
          flex-direction: column;
 
-         @media (max-width: $phone) {
+         @media (max-width: 767px) {
             padding: 0 16px;
             font-size: 14px;
             line-height: 18px;
@@ -57,10 +57,10 @@
 
       font-size: 14px;
 
-      @media (min-width: $tablet) and (max-width: $tablet-max) {
+      @media (min-width:  768px) and (max-width: 1439px) {
          max-height: 135px;
       }
-      @media (min-width: $desktop) {
+      @media (min-width: 1440px) {
          height: auto;
          max-height: 200px;
       }
@@ -73,16 +73,16 @@
    &__img {
       width: 100%;
       min-height: 176px;
-      @media (min-width: $tablet) and (max-width: $tablet-max) {
+      @media (min-width:  768px) and (max-width: 1439px) {
          border-radius: 5px;
       }
-      @media (min-width: $desktop) {
+      @media (min-width: 1440px) {
          border-radius: 7px;
       }
    }
 
   .about-us__expand-btn {
-    @media (min-width: $desktop) {
+    @media (min-width: 1440px) {
       display: none;
     }
   }

@@ -12,7 +12,7 @@
       -ms-overflow-style: none;
       //scrollbar-color: transparent transparent;
 
-      @media (min-width: $desktop) {
+      @media (min-width: 1440px) {
          justify-content: start;
          flex-wrap: wrap;
          overflow-x: visible;
@@ -30,7 +30,7 @@
    }
 
    &__link {
-      color: $muted;
+      color: #7e7e82;
      padding: 7px 16px;
      border: 2px solid transparent;
       border-radius: 7px;
@@ -38,8 +38,7 @@
       &:active,
       &:hover {
          border-color: #b8ffec;
-         background-color: $white;
-         transform: scale(1.05);
+         background-color: #ffffff;
       }
    }
 }

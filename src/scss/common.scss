@@ -1,6 +1,6 @@
 body {
    font-family: 'TT Lakes', sans-serif;
-   background-color: $light-grey;
+   background-color: #f8f8f8;
    margin: 0;
    padding: 0;
 }
@@ -9,18 +9,18 @@ body {
 } 
 
 .main-container {
-   max-width: $desktop;
+   max-width: 1046px;
    margin-left: auto;
    margin-right: auto;
-   @media (min-width: $desktop-max) {
-      max-width: $desktop-max;
+   @media (min-width: 1440px) {
+      max-width: 1440px;
    }
 }
 .container {
-   max-width: $desktop;
+   max-width: 1046px; 
    display: flex;
    flex-direction: column;
-   @media (min-width: $desktop-max) {
+   @media (min-width: 1440px) {
       margin: 0;
       margin-left: auto;
    }
@@ -30,7 +30,7 @@ body {
    display: flex;
    align-items: center;
    justify-content: center;
-   background: $pink;
+   background: #ff3e79;
    border-radius: 50%;
    width: 40px;
    height: 40px;
@@ -41,7 +41,7 @@ body {
 .circle__link {
    height: 40px;
    width: 40px;
-   border: $pink solid 2px;
+   border: #ff3e79 solid 2px;
    border-radius: 50%;
    background: url('../assets/img/dropdown.svg') no-repeat center center;
 }
@@ -51,7 +51,7 @@ body {
    align-items: center;
    gap: 16px;
    border: none;
-   background-color: $light-grey;
+   background-color: #f8f8f8;
 
    &::before {
       content: url('../assets/img/expand.svg');
@@ -62,7 +62,7 @@ body {
       font-family: 'TT Lakes', sans-serif;
       font-weight: 500;
       font-size: 16px;
-      color: $black;
+      color: #1b1c21;
    }
 }
 
@@ -81,7 +81,7 @@ body {
 .submit-btn {
    height: 32px;
    padding: 4px 12px;
-   background: $pink;
+   background:#ff3e79;
    border: 0;
    border-radius: 16px;
 
@@ -90,7 +90,7 @@ body {
       display: flex;
       justify-content: center;
       gap: 12px;
-      color: $white;
+      color: #ffffff;
 
       &::after {
          content: url('../assets/img/modal-arrow.svg');

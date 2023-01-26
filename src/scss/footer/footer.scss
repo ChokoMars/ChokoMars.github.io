@@ -1,19 +1,19 @@
 .footer { 
    display: grid;
    grid-template-columns: repeat(3, 1fr);
-   color: $muted;
+   color: #7e7e82;
    gap: 16px;
    padding: 16px;
-   border-top: 1px solid $sky-border;
+   border-top: 1px solid #d9fff5;
 
-   @media (max-width: $phone) {
+   @media (max-width: 767px) {
       grid-template-columns: 1fr;
       grid-template-rows: 3fr;
    }
-   @media (min-width: $tablet) and (max-width: $tablet-max) {
+   @media (min-width: 321px) and (max-width: 767px) {
       padding: 32px 24px;
    }
-   @media (min-width: $desktop) {
+   @media (min-width: 1440px) {
       padding: 32px;
    }
 
@@ -22,19 +22,19 @@
       line-height: 16px;
       font-weight: 500;
 
-      @media (max-width: $phone) {
+      @media (max-width: 767px) {
          text-align: center;
       }
 
       &:nth-child(2) {
          text-align: center;
          a {
-            color: $muted;
+            color: #7e7e82;
          }
       }
 
       &:nth-child(3) {
-         @media (min-width: $tablet) {
+         @media (min-width: 768px) {
             text-align: right;
          }
       }

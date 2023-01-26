@@ -7,11 +7,11 @@
    height: 160px;
    box-sizing: border-box;
    width: 240px;
-   border: 1px solid $light-grey-border;
+   border: 1px solid #eaeaea;
    border-radius: 6px;
-   background: $white;
+   background: #ffffff;
 
-   @media (min-width: $tablet) {
+   @media (min-width: 768px) {
       width: 221px; 
    }
 }

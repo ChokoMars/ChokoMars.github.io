@@ -24,11 +24,11 @@
    top: 0;
    right: 0;
    z-index: 50;
-   background: $white;
+   background: #ffffff;
    box-shadow: 16px 0 52px 0 #0e185033, -2px 0px 4px 0px #454f7e05;
    font-weight: 500;
 
-   @media (min-width: $tablet) {
+   @media (min-width: 768px) {
       width: 440px;
       padding: 40px 32px;
    }
@@ -51,7 +51,7 @@
    }
 
    &__close-btn {
-      @media (min-width: $tablet) {
+      @media (min-width: 768px) {
          position: absolute;
          left: -72px;
       }
@@ -59,14 +59,14 @@
 
    &__title::before {
       content: '';
-      border: 2px solid $light-sky;
+      border: 2px solid #41f6d7;
       border-radius: 0 5px 5px 0;
       position: absolute;
       left: 0;
       top: 100px;
       height: 40px;
 
-      @media (min-width: $tablet) {
+      @media (min-width: 768px) {
          top: 35px;
       }
    }
@@ -88,7 +88,7 @@
       width: 100%;
       padding: 12px 16px;
 
-      border: 1px solid $light-grey-border;
+      border: 1px solid #eaeaea;
       border-radius: 5px;
 
       &::placeholder {
@@ -103,13 +103,13 @@
    }
 
    &__agreement {
-      color: $muted;
+      color: #7e7e82;
       font-size: 14px;
       line-height: 16px;
    }
 
    &__link {
-      color: $pink;
+      color: #ff3e79;
    }
 
    &__hidden {
