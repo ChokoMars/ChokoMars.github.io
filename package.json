@@ -1,16 +1,10 @@
 {
-  "name": "web-last-block",
+  "name": "webpack-test",
   "version": "1.0.0",
   "description": "",
-  "keywords": [
-    "web",
-    "scss",
-    "html",
-    "javascript",
-    "webpack"
-  ],
+  "keywords": [],
   "license": "ISC",
-  "author": "Kata Academy",
+  "author": "",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
@@ -44,11 +38,11 @@
     "webpack-cli": "3.3.7",
     "webpack-dev-server": "^3.11.0"
   },
-  "engineStrict": true,
   "engines": {
     "node": "~14.18.3",
     "npm": "~6.14.15"
   },
+  "engineStrict": true,
   "postcss": {
     "plugins": {
       "autoprefixer": {}

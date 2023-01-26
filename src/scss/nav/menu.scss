@@ -1,0 +1,45 @@
+.menu {
+   display: flex;
+
+   &__list { 
+      margin: 0;
+      padding-left: 40px;
+      display: flex;
+      align-items: center;
+      list-style-type: none;
+      overflow-x: auto;
+      gap: 7px;
+      -ms-overflow-style: none;
+      //scrollbar-color: transparent transparent;
+
+      @media (min-width: $desktop) {
+         justify-content: start;
+         flex-wrap: wrap;
+         overflow-x: visible;
+         margin-bottom: -10px;
+      }
+
+      &::-webkit-scrollbar {
+         display: none;
+      }
+   }
+
+   &__list-item {
+      display: flex;
+      white-space: nowrap;
+   }
+
+   &__link {
+      color: $muted;
+     padding: 7px 16px;
+     border: 2px solid transparent;
+      border-radius: 7px;
+
+      &:active,
+      &:hover {
+         border-color: #b8ffec;
+         background-color: $white;
+         transform: scale(1.05);
+      }
+   }
+}
